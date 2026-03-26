@@ -23,3 +23,12 @@
 **Monitoratge i control** 
 **Necessitat:** saber si els serveis funcionen correctament i rebre alertes davant fallades.  
 **Solució del projecte:** monitoratge opcional amb Nagios/Zabbix
+
+**Aquestes necessitats donen lloc a un projecte de TI per empreses PIME:**  
+**Només amb aquesta infraestructura poden tenir:**  
+LDAP centralitzat + replicació  
+Autenticació única per tots els equips  
+Accessos segurs des de qualsevol lloc  
+Backup i recuperació de dades  
+Control de permisos i recursos compartits  
+
