@@ -1,30 +1,48 @@
 # Implementació d’un entorn LDAP centralitzat local i al núvol (AWS) per a la gestió d’usuaris, permisos i polítiques de seguretat
 ## Problema a resoldre
 
-Moltes petites i mitjanes empreses no disposen d’un sistema centralitzat que permeti administrar de manera eficient els usuaris, els permisos d’accés i les polítiques de seguretat dins de la seva infraestructura informàtica. Aquesta manca de centralització genera diversos problemes operatius i de seguretat que poden afectar directament la productivitat, la protecció de la informació i la continuïtat del negoci.
+**Necessitats del sector productiu i problema a resoldre**  
 
-Entre els principals problemes detectats destaquen els següents:
+Actualment, moltes petites i mitjanes empreses (PIME) no disposen d’un sistema centralitzat que permeti administrar de manera eficient els usuaris, els permisos d’accés i les polítiques de seguretat dins de la seva infraestructura informàtica. Aquesta manca de centralització genera problemes operatius, de seguretat i de manteniment que afecten directament la productivitat, la protecció de la informació i la continuïtat del negoci.  
 
-1. **Gestió manual i poc eficient dels usuaris**   
-    L’alta, modificació i baixa de comptes d’usuari s’ha de realitzar de manera individual en cada equip o servei, fet que incrementa el temps de gestió, dificulta l’administració i augmenta la probabilitat d’errors humans.
+Una de les principals dificultats és la gestió manual i poc eficient dels usuaris, ja que l’alta, modificació i baixa de comptes s’ha de realitzar individualment en cada equip o servei. Això incrementa el temps de gestió, dificulta l’administració i augmenta el risc d’errors humans.  
 
-1. **Riscos elevats de seguretat**    
-    L’absència d’un control centralitzat dels accessos impedeix aplicar criteris homogenis de seguretat i pot provocar accessos indeguts a recursos sensibles, fuites d’informació i una major exposició a vulnerabilitats internes o externes.
+A més, existeixen riscos elevats de seguretat, ja que sense un control centralitzat resulta complicat aplicar criteris homogenis d’accés. Això pot provocar accessos no autoritzats a dades sensibles, fuites d’informació i una major exposició a vulnerabilitats.  
 
-    Dificultats en la recuperació davant incidències i en la continuïtat del negoci
-    En cas de fallada del servidor, corrupció de dades o pèrdua d’informació, la recuperació pot ser lenta, parcial o complexa, especialment si no existeixen mecanismes de redundància, còpies de seguretat i sincronització entre entorns.
+També es detecten dificultats en la recuperació davant incidències, ja que en cas de fallada del sistema, corrupció de dades o pèrdua d’informació, la recuperació pot ser lenta o incompleta si no existeixen mecanismes adequats de còpia de seguretat i redundància.  
 
-    Manca de polítiques de seguretat homogènies
-    Sense una infraestructura centralitzada, resulta difícil aplicar de forma consistent polítiques com restriccions de contrasenya, permisos d’accés, scripts d’inici de sessió, configuracions d’entorn o restriccions sobre els dispositius dels usuaris.
+Una altra problemàtica important és la manca de polítiques de seguretat homogènies, fet que impedeix aplicar de forma consistent restriccions de contrasenya, permisos d’accés, configuracions d’entorn o scripts d’inici de sessió.  
 
-1. **Escalabilitat limitada**    
-    A mesura que l’empresa creix i augmenta el nombre d’usuaris, equips i serveis, la gestió descentralitzada esdevé cada cop més difícil de mantenir, menys eficient i més costosa en termes tècnics i organitzatius.
+A mesura que l’empresa creix, apareix una escalabilitat limitada, ja que la gestió descentralitzada esdevé cada cop més complexa, menys eficient i més costosa.  
 
-1. **Manca de traçabilitat i auditoria**    
-    Sense un sistema centralitzat, és complicat registrar, supervisar i auditar qui accedeix a cada recurs, quan ho fa i amb quins permisos, fet que dificulta el compliment de requisits de seguretat i normativa.
+A tot això s’hi suma la manca de traçabilitat i auditoria, que dificulta saber qui accedeix als recursos, quan ho fa i amb quins permisos, complicant el compliment de normatives de seguretat.  
 
-1. **Dependència excessiva d’equips o administracions locals**    
-    Quan la gestió d’usuaris depèn de configuracions locals en cada màquina o servidor, es genera una infraestructura poc robusta, difícil de mantenir i molt dependent del coneixement tècnic puntual de cada administrador.
-1. **Integració deficient entre entorn local i serveis al núvol**    
-    Moltes organitzacions treballen amb recursos híbrids, però no disposen d’un mecanisme unificat d’autenticació i control d’accés entre la infraestructura local i els serveis desplegats al núvol, fet que complica la gestió i incrementa els riscos operatius.
+Finalment, moltes empreses pateixen una integració deficient entre entorns locals i al núvol, especialment en infraestructures híbrides, així com una dependència excessiva de configuracions locals i coneixements puntuals dels administradors.  
+
+**Solució proposada: Infraestructura centralitzada amb LDAP i AWS**
+
+Per donar resposta a aquestes necessitats, es proposa la implementació d’un entorn LDAP centralitzat tant en local com al núvol (AWS) que permeti gestionar de forma unificada els usuaris, els permisos i les polítiques de seguretat.  
+
+**Aquesta solució es basa en:**  
+
+LDAP centralitzat + Samba Active Directory per gestionar tots els usuaris i grups des d’un únic punt.  
+Autenticació única (Single Sign-On) per permetre als usuaris accedir a tots els recursos amb un sol compte.  
+Control d’accés segur, mitjançant permisos per grups i polítiques equivalents a GPO.  
+Accés remot segur, gràcies a la implementació d’una VPN i configuració adequada de firewall.  
+Replicació LDAP al núvol (AWS) per garantir alta disponibilitat i tolerància a fallades.  
+Backups automatitzats per assegurar la recuperació de dades en cas d’incidències.  
+Automatització de processos, reduint errors humans en la gestió de comptes i permisos.  
+Monitoratge del sistema amb eines com Nagios o Zabbix per detectar incidències i rebre alertes.  
+
+**Beneficis per a les PIME**  
+
+Amb aquesta infraestructura, les empreses poden disposar de:  
+
+Gestió centralitzada d’usuaris i permisos  
+Autenticació única per a tots els equips i serveis  
+Accés segur des de qualsevol ubicació  
+Sistemes de backup i recuperació eficients  
+Control total sobre recursos compartits i polítiques de seguretat  
+Alta disponibilitat gràcies a la replicació al núvol  
+Millora en la seguretat, escalabilitat i eficiència operativaol, fet que complica la gestió i incrementa els riscos operatius.
 
