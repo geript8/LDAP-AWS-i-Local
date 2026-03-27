@@ -1,4 +1,4 @@
-# 1. **Consultoria i serveis TI integrals**  
+ 1. **Consultoria i serveis TI integrals**  
 Enginyeria Informàtica Olot (EIO) – Consultoria i solucions informàtiques: suport tècnic, ciberseguretat, plans de backup, consultoria i implementació de solucions TI per a empreses.  
 
 **Inforolot S.A.** – Consultoria i servei informàtic amb llarga trajectòria, especialitzat en solucions TI d’empresa, ERP/CRM, maquinari i programari.  
