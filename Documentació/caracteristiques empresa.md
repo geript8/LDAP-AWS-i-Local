@@ -1,4 +1,4 @@
-# Empresa tipus 1: PIME tecnològica
+# Empresa tipus 1: tecnològica
 **Estructura organitzativa:**  
 **Direcció General:** presa de decisions estratègiques i supervisió general.  
 **Departament de Desenvolupament:** crea software, apps i sistemes interns.  
