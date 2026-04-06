@@ -1,10 +1,10 @@
-**Creixement de la digitalització en PIMES:**  
+**Creixement de la digitalització en empreses:**  
 - Cada vegada més empreses digitalitzen processos (fitxers, usuaris, serveis).  
 - Moltes no tenen infraestructura adequada.  
 **Oportunitat:** oferir serveis de centralització d’usuaris i seguretat amb LDAP/Samba  
 
 **Falta de personal tècnic especialitzat:**  
-- Moltes PIMES no tenen departament IT propi.
+- Moltes empreses no tenen departament IT propi.
 - No saben implementar ni mantenir sistemes com LDAP o Active Directory.
   
 **Oportunitat:** oferir el projecte com a:  
@@ -37,5 +37,5 @@
  **Oportunitat:** el teu sistema permet:  
 - Control d’accés  
 - Traçabilitat  
-Seguretat de dades
+- Seguretat de dades
 
