@@ -1,7 +1,7 @@
 Principals ajuts i subvencions:
 
 Kit Digital
-- Programa d’ajudes per a PIMES i autònoms
+- Programa d’ajudes per a empreses i autònoms
 - Finançat per la Unió Europea
  Què subvenciona:
 - Digitalització d’empreses
