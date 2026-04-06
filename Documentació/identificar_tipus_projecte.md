@@ -1,5 +1,5 @@
 El projecte plantejat és un:
-Projecte d’infraestructura de sistemes informàtics i xarxes orientat a la gestió centralitzada d’usuaris, seguretat i recursos en empreses PIME.
+Projecte d’infraestructura de sistemes informàtics i xarxes orientat a la gestió centralitzada d’usuaris, seguretat i recursos en empreses.
 
 Aquest projecte consisteix en la implementació d’una infraestructura de TI que permet:
 Centralitzar la gestió d’usuaris i grups mitjançant LDAP / Samba Active Directory
