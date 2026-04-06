@@ -1,16 +1,18 @@
- 1. **Consultoria i serveis TI integrals**  
-Enginyeria Informàtica Olot (EIO) – Consultoria i solucions informàtiques: suport tècnic, ciberseguretat, plans de backup, consultoria i implementació de solucions TI per a empreses.  
 
-**Inforolot S.A.** – Consultoria i servei informàtic amb llarga trajectòria, especialitzat en solucions TI d’empresa, ERP/CRM, maquinari i programari.  
+**1. Empreses industrials amb alta necessitat de TI**  
 
-2. **Suport tècnic i manteniment**  
-**Serveis Informàtics Olot** – Manteniment i suport informàtic bàsic per a empreses.  
-**InformaticGarrotxa** – Suport i serveis d’informàtica.  
-**Olotsystem** – Serveis informàtics i assistència tècnica.  
+**Noel Alimentaria** – Empresa del sector alimentari amb gran volum de treball i necessitat de sistemes informàtics per gestionar producció, usuaris i dades.  
 
-3. **Empreses relacionades amb tecnologia i desenvolupament**  
-ADS, Anàlisi/Disseny de Soft, S.L.U. – Servei informàtic amb enfocament cap a anàlisi i disseny de programari.  
-Instatechd 3000 S.L. – Botiga tecnològica i servei d’informàtica.  
-TWITTINK | Servei d’Informàtica i Mòbils – Serveis d’informàtica i mòbils amb alta valoració (pot donar suport TI de proximitat).  
+**HIPRA** – Empresa farmacèutica i biotecnològica amb alta dependència de sistemes informàtics, seguretat i gestió de dades.  
 
- 
+**2. Empreses tecnològiques i serveis IT**    
+
+**Inforolot S.A.** – Empresa amb experiència en solucions IT empresarials (ERP, CRM, infraestructura i serveis informàtics).  
+
+**Integra Tecnologia** – Empresa especialitzada en ciberseguretat, cloud i serveis IT per a empreses.  
+
+**3. Empreses amb estructura organitzativa complexa**    
+
+**Simon, S.A.** – Multinacional amb necessitat de sistemes informàtics avançats i gestió centralitzada d’usuaris.  
+
+**La Fageda** – Empresa amb múltiples departaments que requereix sistemes de gestió d’usuaris i dades.  
