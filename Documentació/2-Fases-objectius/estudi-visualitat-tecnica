@@ -1,0 +1,51 @@
+**L’estudi de viabilitat tècnica té com a objectiu comprovar si el projecte és realitzable amb les tecnologies, recursos i coneixements disponibles, 
+i si pot funcionar de manera estable per a empreses grans.**  
+
+**Tecnologies seleccionades**  
+
+**Àrea:** Servidor i sistema operatiu  
+**Tecnologia:** Ubuntu Server LTS  
+**Viabilitat:** Alta, estable, gratuït, compatible amb LDAP/Samba  
+
+**Àrea:** Directori d’usuaris  
+**Tecnologia:** OpenLDAP / Samba AD  
+**Viabilitat:** Alta, suport a autenticació centralitzada i gestió de grups  
+
+**Àrea:** Control d’accés i seguretat  
+**Tecnologia:** UFW (Firewall), OpenVPN  
+**Viabilitat:** Alta, permet connexions segures i control de ports  
+
+Àrea: Recursos compartits  
+Tecnologia: Samba  
+Viabilitat: Alta, permet compartir carpetes amb permisos definits per grups  
+
+**Àrea:** Alta disponibilitat  
+Tecnologia: Replicació LDAP entre servidor local i AWS  
+Viabilitat: Mitjana-alta, requereix coneixements de replicació i xarxa  
+
+Àrea: Backups  
+Tecnologia: Scripts Bash/Python  
+Viabilitat: Alta, permet còpies automatitzades i restauració ràpida  
+
+Àrea: Monitoratge  
+Tecnologia: Nagios / Zabbix  
+Viabilitat: Alta, supervisió de serveis crítica per empreses grans  
+
+Recursos tècnics disponibles  
+
+Hardware: servidor local amb Ubuntu Server, opcional VM per proves, PCs clients Windows/Linux   
+Xarxa: connexió local i VPN cap a AWS  
+Coneixements: configuració Linux, LDAP, Samba, VPN, scripts de backup  
+
+Limitacions tècniques  
+
+Replicació LDAP pot fallar si la xarxa és inestable  
+Configuració inicial de Samba AD és complexa i requereix proves  
+Monitoratge amb Nagios/Zabbix necessita temps per ajustar alertes  
+
+Solucions proposades  
+
+Configurar replicació amb proves en entorn de laboratori abans del desplegament real  
+Documentar cada pas d’instal·lació i configuració per evitar errors futurs  
+Automatitzar backups i scripts per minimitzar risc de pèrdua de dades  
+Fer proves d’accés i permisos amb PCs Windows i Linux per validar la interoperabilitat  
