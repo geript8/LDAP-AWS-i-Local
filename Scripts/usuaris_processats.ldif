@@ -1,0 +1,7 @@
+dn: uid=saz,dc=empresa,dc=local
+objectClass: inetOrgPerson
+cn: pol
+sn: pol
+uid: saz
+userPassword: Patata123
+

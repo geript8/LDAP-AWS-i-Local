@@ -1,25 +1,14 @@
-import os
+fitxer = open("usuaris.ldif", "w")
 
-usuari = input("Usuari: ")
-nom = input("Nom Complet :")
-cognom =input("Cognom: ")
-password = input("Contrassenya :")
+resposta = "s"
 
-fitxer = open("usuari.ldif", "w")
+while resposta == "s":
+    nom = input("Nom: ")
+    usuari = input("Usuari: ")
+    password = input("Password: ")
 
-fitxer.write("dn: uid=" + usuari + ",ou=users,dc=empresa,dc=local\n")
-fitxer.write("objectClass: top\n")
+    fitxer.write(nom + "," + usuari + "," + password + "\n")
 
-
-fitxer.write("uid: " + usuari + "\n")
-fitxer.write("cn: " + nom + "\n")
-fitxer.write("sn: " + cognom + "\n")
-fitxer.write("uidNumber: 10001\n")
-fitxer.write("gidNumber: 10001\n")
-fitxer.write("homeDirectory: /home/" + usuari + "\n")
-fitxer.write("loginShell: /bin/bash\n")
-fitxer.write("userPassword: " + password + "\n")
+    resposta = input("Vols crear mes usuaris? (s/n): ")
 
 fitxer.close()
-
-os.system("ldapadd -x -D cn=admin,dc=empresa,dc=local -W -f usuari.ldif")
