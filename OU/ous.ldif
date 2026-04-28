@@ -1,0 +1,7 @@
+dn: ou=IT,dc=empresa,dc=local
+objectClass: organizationalUnit
+ou: IT
+
+dn: ou=Administracio,dc=empresa,dc=local
+objectClass: organizationalUnit
+ou: Administracio
