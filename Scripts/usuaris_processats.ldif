@@ -1,7 +1,13 @@
-dn: uid=saz,dc=empresa,dc=local
+dn: uid=pol,dc=empresa,dc=local
 objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
 cn: pol
 sn: pol
-uid: saz
-userPassword: Patata123
+uid: pol
+uidNumber: 1001
+gidNumber: 5000
+homeDirectory: /home/pol
+loginShell: /bin/bash
+userPassword: patata123
 
