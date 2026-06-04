@@ -1,0 +1,6 @@
+dn: cn=empresa,ou=Administracio,dc=empresa,dc=local
+objectClass: top
+objectClass: posixGroup
+cn: empresa
+gidNumber: 5005
+memberUid: pol

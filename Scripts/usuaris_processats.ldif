@@ -1,13 +1,130 @@
-dn: uid=pol,dc=empresa,dc=local
+dn: uid=jgarcia,dc=empresa,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
-cn: pol
-sn: pol
-uid: pol
+cn: Joan Garcia
+sn: Joan Garcia
+uid: jgarcia
+uidNumber: 1000
+gidNumber: 5000
+homeDirectory: /home/jgarcia
+loginShell: /bin/bash
+userPassword: Password123
+
+dn: uid=mlopez,dc=empresa,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Maria Lopez
+sn: Maria Lopez
+uid: mlopez
 uidNumber: 1001
 gidNumber: 5000
-homeDirectory: /home/pol
+homeDirectory: /home/mlopez
 loginShell: /bin/bash
-userPassword: patata123
+userPassword: Password456
+
+dn: uid=pmarti,dc=empresa,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Pere Marti
+sn: Pere Marti
+uid: pmarti
+uidNumber: 1002
+gidNumber: 5000
+homeDirectory: /home/pmarti
+loginShell: /bin/bash
+userPassword: Password789
+
+dn: uid=apuig,dc=empresa,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Anna Puig
+sn: Anna Puig
+uid: apuig
+uidNumber: 1003
+gidNumber: 5000
+homeDirectory: /home/apuig
+loginShell: /bin/bash
+userPassword: Password321
+
+dn: uid=croca,dc=empresa,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Carles Roca
+sn: Carles Roca
+uid: croca
+uidNumber: 1004
+gidNumber: 5000
+homeDirectory: /home/croca
+loginShell: /bin/bash
+userPassword: Password654
+
+dn: uid=lvidal,dc=empresa,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Laura Vidal
+sn: Laura Vidal
+uid: lvidal
+uidNumber: 1005
+gidNumber: 5000
+homeDirectory: /home/lvidal
+loginShell: /bin/bash
+userPassword: Password987
+
+dn: uid=msoler,dc=empresa,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Marc Soler
+sn: Marc Soler
+uid: msoler
+uidNumber: 1006
+gidNumber: 5000
+homeDirectory: /home/msoler
+loginShell: /bin/bash
+userPassword: Password111
+
+dn: uid=sfont,dc=empresa,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Sara Font
+sn: Sara Font
+uid: sfont
+uidNumber: 1007
+gidNumber: 5000
+homeDirectory: /home/sfont
+loginShell: /bin/bash
+userPassword: Password222
+
+dn: uid=jmas,dc=empresa,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Jordi Mas
+sn: Jordi Mas
+uid: jmas
+uidNumber: 1008
+gidNumber: 5000
+homeDirectory: /home/jmas
+loginShell: /bin/bash
+userPassword: Password333
+
+dn: uid=mriu,dc=empresa,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Marta Riu
+sn: Marta Riu
+uid: mriu
+uidNumber: 1009
+gidNumber: 5000
+homeDirectory: /home/mriu
+loginShell: /bin/bash
+userPassword: Password444
 
